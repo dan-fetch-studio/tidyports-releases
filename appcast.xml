@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Sparkle update feed for Tidy Ports.
+
+  Read by every installed copy from 1.2.0 onwards (SUFeedURL in the app's Info.plist).
+  Newest release first. Each enclosure carries an EdDSA signature over the exact bytes of
+  the uploaded DMG — the app refuses anything whose signature does not verify against the
+  public key baked into it, so this file cannot be used to hand anyone a different build.
+
+  Generated per release by app/release-dmg.sh, which prints the <item> to paste in.
+-->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>Tidy Ports</title>
+        <link>https://raw.githubusercontent.com/dan-fetch-studio/tidyports-releases/main/appcast.xml</link>
+        <description>Updates for Tidy Ports</description>
+        <language>en</language>
+        <item>
+            <title>1.2.0</title>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink>https://github.com/dan-fetch-studio/tidyports-releases/releases/tag/v1.2.0</sparkle:releaseNotesLink>
+            <pubDate>Sat, 25 Jul 2026 22:18:40 +0000</pubDate>
+            <enclosure url="https://github.com/dan-fetch-studio/tidyports-releases/releases/download/v1.2.0/TidyPorts-1.2.0.dmg"
+                       sparkle:edSignature="oHV3aQWmjIWpluodZL8B+HOZ56cww9sDEX4qxxt0hwGntjuNWF89Ulr49847mzZvsFlF/wugP87x5ammd+rPBg==" length="8226848" type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>
