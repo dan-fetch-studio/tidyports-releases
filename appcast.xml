@@ -16,6 +16,16 @@
         <description>Updates for Tidy Ports</description>
         <language>en</language>
         <item>
+            <title>1.2.1</title>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink>https://github.com/dan-fetch-studio/tidyports-releases/releases/tag/v1.2.1</sparkle:releaseNotesLink>
+            <pubDate>Sat, 25 Jul 2026 23:04:19 +0000</pubDate>
+            <enclosure url="https://github.com/dan-fetch-studio/tidyports-releases/releases/download/v1.2.1/TidyPorts-1.2.1.dmg"
+                       sparkle:edSignature="HYbt+ClSCsGhu02ewnDTwjQtVhXFB/aQGM4ppgUvbadvYhXOwPFy1wlBbYF/d3wMFpS8iyrB1Agnbneb5GA5BA==" length="8227718" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>1.2.0</title>
             <sparkle:version>3</sparkle:version>
             <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
